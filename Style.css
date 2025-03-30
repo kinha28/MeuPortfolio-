@@ -1,0 +1,148 @@
+/* Importando a fonte personalizada do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Estilo para o corpo da página */
+body {
+    font-family: "Winky Sans", sans-serif;  /* Definindo a fonte do corpo da página */
+    margin: 0;  /* Removendo as margens padrão do navegador */
+    padding: 0;  /* Removendo o padding padrão do navegador */
+    text-align: center;  /* Centralizando o texto */
+}
+
+/* Estilo para o cabeçalho (header) */
+header {
+    background-color: #333;  /* Cor de fundo escura */
+    color: white;  /* Cor do texto em branco */
+    padding: 20px;  /* Espaçamento interno (padding) de 20px */
+    letter-spacing: 5px;  /* Aumentando o espaço entre as letras */
+}
+
+/* Estilo para todas as seções (section) da página */
+section {
+    padding: 20px;  /* Espaçamento interno de 20px */
+}
+
+/* Estilo para os títulos h2 dentro da página */
+h2 {
+    letter-spacing: 1px;  /* Definindo um pequeno espaçamento entre as letras */
+}
+
+/* Estilo para os parágrafos (p) */
+p {
+    letter-spacing: 1px;  /* Aumentando um pouco o espaçamento entre as letras */
+}
+
+/* Estilo para a classe "projeto", que pode ser usada para os itens de projetos */
+.projeto {
+    border: 1px solid #ccc;  /* Borda de 1px de espessura com cor cinza claro */
+    padding: 10px;  /* Espaçamento interno de 10px */
+    margin: 10px;  /* Espaçamento externo de 10px entre os projetos */
+}
+
+/* Estilo para o rodapé (footer) */
+footer {
+    background-color: #333;  /* Cor de fundo escura */
+    color: white;  /* Cor do texto em branco */
+    padding: 10px;  /* Espaçamento interno de 10px */
+    position: fixed;  /* Fixando o rodapé no fundo da página */
+    width: 100%;  /* Garantindo que o rodapé ocupe toda a largura da página */
+    bottom: 0;  /* Colocando o rodapé no fundo da página */
+}
+
+/* Estilo básico */
+body {
+    font-family: "Winky Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+
+/* Seção principal */
+section {
+    padding: 20px;
+}
+
+/* Títulos (h2) */
+h2 {
+    letter-spacing: 1px;
+}
+
+/* Parágrafos */
+p {
+    letter-spacing: 1px;
+}
+
+/* Caixa de projetos */
+.projeto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Estilo de rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Media Queries para responsividade */
+
+/* Para telas de dispositivos móveis (máximo de 600px) */
+@media (max-width: 600px) {
+    body {
+        font-size: 16px; /* Menor tamanho de fonte para dispositivos móveis */
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    .projeto {
+        font-size: 14px;
+        margin: 10px 0; /* Menor margem nos projetos */
+    }
+
+    footer {
+        font-size: 14px; /* Tamanho de fonte menor no rodapé */
+        position: relative;
+    }
+
+    h2, h3 {
+        font-size: 18px; /* Ajuste no tamanho das fontes */
+    }
+}
+
+/* Para telas de tablet (de 601px até 1024px) */
+@media (max-width: 1024px) {
+    body {
+        font-size: 18px; /* Um pouco maior para telas de tablet */
+    }
+
+    .projeto {
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+
+    h2, h3 {
+        font-size: 20px; /* Ajuste no tamanho das fontes */
+    }
+}
